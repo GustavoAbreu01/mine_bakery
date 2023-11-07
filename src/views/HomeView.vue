@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import cakeIntro from '../assets/img/cake_visualOne.jpg'
-import Header from '../components/Header.vue'
+import Cake from '../components/Cakes.vue'
 
 </script>
 
@@ -24,7 +24,7 @@ import Header from '../components/Header.vue'
     </section>
     <section class="intro_section">
       <div class="cakes_list_container">
-
+        <Cake />
       </div>
     </section>
   </main>
