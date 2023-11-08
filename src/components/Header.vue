@@ -2,23 +2,23 @@
 import { ref } from 'vue';
 import logo from '@/assets/logo.svg';
 
-const modalTransform = ref('translateX(100%)');
+const modalTransform = ref('translateX(110%)');
 
 const toggleModal = () => {
     modalTransform.value = 'translateX(0)';
 };
 
 const closeModal = () => {
-    modalTransform.value = 'translateX(100%)';
+    modalTransform.value = 'translateX(110%)';
 };
 </script>
 
 <template lang="">
     <div class="container_header">
-        <div class="header_itens">
+        <RouterLink class="header_itens" to="/">
             <img class="logo_header" :src="logo" alt="Vue 3 + Vite" />
-            Mine Bakery
-        </div>
+            <p class="title_header">Mine Bakery</p>
+        </RouterLink>
         <div>
             <font-awesome-icon @click="toggleModal" class="bars_header" :icon="['fas', 'bars-staggered']" style="color: #cc3b3b;" />
         </div>
@@ -26,14 +26,15 @@ const closeModal = () => {
          <font-awesome-icon @click="closeModal" class="close_menu" :icon="['fas', 'xmark']" style="color: #E8E8E8;" />
             <div class="modal_itens">
               <RouterLink class="menu_link" to="/">Home</RouterLink>
-              <RouterLink class="menu_link" to="/about">Cakes</RouterLink>
-              <RouterLink class="menu_link" to="/cakes">About</RouterLink>
+              <RouterLink class="menu_link" to="/cakes">Cakes</RouterLink>
+              <RouterLink class="menu_link" to="/about">About</RouterLink>
             </div>
         </div>
     </div>
 </template>
 
 <style scoped>
+
 .container_header {
     display: flex;
     align-items: center;
@@ -61,6 +62,7 @@ const closeModal = () => {
     font-weight: bold;
     color: var(--color-dark-one);
     font-family: Outfit-light;
+    text-decoration: none;
 }
 
 .bars_header {
@@ -85,7 +87,7 @@ const closeModal = () => {
     border-bottom-left-radius: 50px;
     transition: 1s;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    
+
 }
 
 .close_menu {
@@ -114,5 +116,12 @@ const closeModal = () => {
     color: var(--color-white-two);
     font-family: Outfit-light;
     text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu_link:hover {
+    scale: 1.1;
+    text-shadow: 0 0 10px var(--color-white-two);
+    transition: 0.5s;
 }
 </style>
