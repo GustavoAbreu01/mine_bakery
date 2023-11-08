@@ -22,7 +22,7 @@ import Cake from '../components/Cakes.vue'
           </p>
         </div>
     </section>
-    <section class="intro_section">
+    <section class="intro_cakes">
       <div class="cakes_list_container">
         <Cake />
       </div>
@@ -56,6 +56,14 @@ import Cake from '../components/Cakes.vue'
   justify-content: space-between;
   width: 100%;
   height: 100vh;
+}
+
+.intro_cakes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
 }
 
 .intro_container {
