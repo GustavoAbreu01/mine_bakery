@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue';
+import products from '../data/products.json';
 import axios from 'axios';
 
 const data = ref([]);
 const itemsPerPage = ref(6);
 const visibleData = computed(() => data.value.slice(0, itemsPerPage.value));
+
+const productsArray = computed(() => {
+  return Object.values(products);
+});
 
 const verifyLocation = () => {
   if (window.location.pathname === '/') {
@@ -41,13 +46,20 @@ const categoryToIcon = {
 onMounted(async () => {
   try {
     const response = await axios.get("http://localhost:8082/product");
-    data.value = response.data;
+    if (response && response.data) {
+      data.value = response.data;
+    } else {
+      data.value = productsArray.value;
+    }
   } catch (error) {
     console.error("Erro ao buscar dados da API: " + error);
+    data.value = productsArray.value;
   }
 });
 
+
 const shortenedDescription = computed(() => {
+  if (!data.value) return ;
   return data.value.map(item => {
     if (item.description.length > 50) {
       return item.description.slice(0, 50) + '...';
@@ -63,7 +75,7 @@ const shortenedDescription = computed(() => {
     <h1 class="title_cakes" v-if="verifyLocation()" >Destaques da semana</h1>
     <h1 class="title_cakes" v-if="!verifyLocation()" >Produtos Disponíveis</h1>
     <div class="box_show_cakes">
-      <div class="cards_cakes" v-for="item in visibleData" :key="item.id">
+      <div class="cards_cakes" v-for="item in products" :key="item.id">
         <div class="card">
           <div class="card_body_detail">
             <div class="card_body">

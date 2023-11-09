@@ -1,0 +1,227 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Bolo de Cenoura",
+        "price": 39.5,
+        "description": "Bolo de cenoura com cobertura de chocolate.",
+        "image": "https://www.sabornamesa.com.br/media/k2/items/cache/fd2436c23111d947c615d80fa5115911_XL.jpg",
+        "weight": 0.5,
+        "type": "CAKE"
+    },
+    "2": {
+        "id": 2,
+        "name": "Bolo de Chocolate",
+        "price": 45.5,
+        "description": "Bolo de chocolate é um bolo simples ou confeitado., que leva chocolate derretido ou em pó, ou ainda cacau em pó em sua confecção.",
+        "image": "https://s.zst.com.br/cms-assets/2022/03/bolo-de-chocolate-de-liquidificador.webp",
+        "weight": 0.7,
+        "type": "CAKE"
+    },
+    "3": {
+        "id": 3,
+        "name": "Bolo de Milho",
+        "price": 40.9,
+        "description": "Bolo de milho, também conhecido como bolo de fubá.",
+        "image": "https://www.culinariadavovo.com.br/wp-content/uploads/2021/04/Receita-Bolo-de-Milho-de-Liquidificador.jpg",
+        "weight": 0.9,
+        "type": "CAKE"
+    },
+    "4": {
+        "id": 4,
+        "name": "Bolo de Morango",
+        "price": 41.9,
+        "description": "O bolo de morango é um bolo que usa o morango como ingrediente principal.",
+        "image": "https://img.freepik.com/fotos-premium/uma-fatia-de-bolo-de-morango-com-morangos-em-uma-mesa-de-madeira_745528-6508.jpg",
+        "weight": 0.7,
+        "type": "CAKE"
+    },
+    "5": {
+        "id": 5,
+        "name": "Torta Mineira",
+        "price": 35.9,
+        "description": "O bolo de abacaxi é uma pastelaria e sobremesa tradicional doce de Taiwan.",
+        "image": "https://renata.com.br/images/receitas/28/renata-imagem-receitas-bolo-de-abacaxi-com-coco-share.jpg",
+        "weight": 0.9,
+        "type": "CAKE"
+    },
+    "6": {
+        "id": 6,
+        "name": "Banoffee",
+        "price": 59.9,
+        "description": "Torta de sobremesa britânica feita de banana, chantilly e um molho espesso de caramelo.",
+        "image": "https://revistamenu.com.br/wp-content/uploads/sites/24/2020/11/banofeereceitas-1.jpg",
+        "weight": 1.0,
+        "type": "DESSERT"
+    },
+    "7": {
+        "id": 7,
+        "name": "Orelha de Gato",
+        "price": 0.75,
+        "description": "Orelha de gato é rápida de fazer e muito saborosa.",
+        "image": "https://www.sabornamesa.com.br/media/k2/items/cache/e77b1e19bc87cfd832ca4af81193ddea_XL.jpg",
+        "weight": 0.1,
+        "type": "DESSERT"
+    },
+    "8": {
+        "id": 8,
+        "name": "Cupcake",
+        "price": 16.5,
+        "description": "Cupcake é um pequeno bolo designado para servir uma única pessoa.",
+        "image": "https://static.itdg.com.br/images/1200-675/7534f5bcee2488b51810b7b7d9239eee/89546-original.jpg",
+        "weight": 0.2,
+        "type": "DESSERT"
+    },
+    "9": {
+        "id": 9,
+        "name": "Donut",
+        "price": 9.9,
+        "description": "Donut é um pequeno bolo em forma de rosca, popular nos Estados Unidos.",
+        "image": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/4c16f98edb2d1c4792f2b7855cecc3c1.jpg",
+        "weight": 0.3,
+        "type": "DESSERT"
+    },
+    "10": {
+        "id": 10,
+        "name": "Rapadura",
+        "price": 4.9,
+        "description": "Torta de sobremesa britânica feita de banana, chantilly e um molho espesso de caramelo.",
+        "image": "https://img.freepik.com/fotos-premium/rapadura-brasileira-um-doce-feito-de-sobremesa-de-cana-de-acucar_255669-164.jpg?w=2000",
+        "weight": 0.2,
+        "type": "DESSERT"
+    },
+    "11": {
+        "id": 11,
+        "name": "Pão de Queijo",
+        "price": 4.9,
+        "description": "Pão de queijo é uma receita típica brasileira, do estado de Minas Gerais.",
+        "image": "https://s.zst.com.br/cms-assets/2021/06/receita-de-p-o-de-queijo-de-liquidificador.jpg",
+        "weight": 0.1,
+        "type": "BREAD"
+    },
+    "12": {
+        "id": 12,
+        "name": "Pão de Batata",
+        "price": 6.0,
+        "description": "Pão de batata é um pão feito com farinha de trigo e batata.",
+        "image": "https://img.freepik.com/fotos-premium/pao-de-batata-doce-recheado-com-cream-cheese_538646-11411.jpg?size=626&ext=jpg",
+        "weight": 0.2,
+        "type": "BREAD"
+    },
+    "13": {
+        "id": 13,
+        "name": "Pão de Leite",
+        "price": 2.9,
+        "description": "Pão de leite é um pão feito com farinha de trigo e leite.",
+        "image": "https://img.freepik.com/fotos-premium/pao-de-leite-caseiro-assado_146714-2059.jpg",
+        "weight": 0.1,
+        "type": "BREAD"
+    },
+    "14": {
+        "id": 14,
+        "name": "Pão de Forma",
+        "price": 3.9,
+        "description": "Pão de forma é um pão feito com farinha de trigo e forma.",
+        "image": "https://www.casalcozinha.com.br/wp-content/uploads/2021/05/pao-de-forma-feito-em-casa-1300x813.jpg",
+        "weight": 1.0,
+        "type": "BREAD"
+    },
+    "15": {
+        "id": 15,
+        "name": "Pão de Alho",
+        "price": 8.0,
+        "description": "Pão de alho é um pão feito com farinha de trigo e alho.",
+        "image": "https://grupolimiar.com.br/wp-content/uploads/2023/02/1.png",
+        "weight": 0.3,
+        "type": "BREAD"
+    },
+    "16": {
+        "id": 16,
+        "name": "Misto Quente",
+        "price": 5.9,
+        "description": "Misto quente é um sanduíche feito com pão de forma, queijo e presunto.",
+        "image": "https://t2.uc.ltmcdn.com/pt/posts/4/6/0/como_fazer_um_misto_quente_24064_orig.jpg",
+        "weight": 0.2,
+        "type": "SANDWICH"
+    },
+    "17": {
+        "id": 17,
+        "name": "Bauru",
+        "price": 7.9,
+        "description": "Bauru é um sanduíche feito com pão francês, rosbife, queijo e tomate.",
+        "image": "https://conteudo.imguol.com.br/c/entretenimento/a4/2023/03/08/o-tradicional-bauru-do-ponto-chic-em-sao-paulo-1678308084032_v2_4x3.jpg",
+        "weight": 0.3,
+        "type": "SANDWICH"
+    },
+    "18": {
+        "id": 18,
+        "name": "X-Tudo",
+        "price": 12.9,
+        "description": "X-Tudo é um sanduíche feito com pão de hambúrguer, hambúrguer, queijo, presunto, ovo, bacon, alface, tomate e milho.",
+        "image": "https://www.receiteria.com.br/wp-content/uploads/receitas-de-x-tudo.jpg",
+        "weight": 0.5,
+        "type": "SANDWICH"
+    },
+    "19": {
+        "id": 19,
+        "name": "X-Bacon",
+        "price": 10.9,
+        "description": "X-Bacon é um sanduíche feito com pão de hambúrguer, hambúrguer, queijo, bacon, alface e tomate.",
+        "image": "https://vocegastro.com.br/app/uploads/2021/11/x-bacon.jpg",
+        "weight": 0.4,
+        "type": "SANDWICH"
+    },
+    "20": {
+        "id": 20,
+        "name": "X-Salada",
+        "price": 9.9,
+        "description": "X-Salada é um sanduíche feito com pão de hambúrguer, hambúrguer, queijo, alface e tomate.",
+        "image": "https://img.cybercook.com.br/receitas/151/x-salada-3.jpeg",
+        "weight": 0.3,
+        "type": "SANDWICH"
+    },
+    "21": {
+        "id": 21,
+        "name": "Coxinha",
+        "price": 4.9,
+        "description": "Coxinha é um salgado feito com massa de farinha de trigo e caldo de galinha.",
+        "image": "https://anamariabraga.globo.com/wp-content/uploads/2017/12/coxinha-cremosa.jpg",
+        "weight": 0.2,
+        "type": "SNACK"
+    },
+    "22": {
+        "id": 22,
+        "name": "Pastel",
+        "price": 3.9,
+        "description": "Pastel é um salgado feito com massa de farinha de trigo e recheio de carne, queijo, frango, palmito, pizza, etc.",
+        "image": "https://redefoodservice.com.br/wp-content/uploads/2023/05/Massa-de-Pastel-de-Feira.jpg",
+        "weight": 0.2,
+        "type": "SNACK"
+    },
+    "23": {
+        "id": 23,
+        "name": "Empada",
+        "price": 2.9,
+        "description": "Empada é um salgado feito com massa de farinha de trigo e recheio de frango, palmito, pizza, etc.",
+        "image": "https://app.docemeu.com.br/wp-content/uploads/2023/06/empada-2.jpg",
+        "weight": 0.2,
+        "type": "SNACK"
+    },
+    "24": {
+        "id": 24,
+        "name": "Enroladinho",
+        "price": 1.9,
+        "description": "Enroladinho é um salgado feito com massa de farinha de trigo e recheio de salsicha, queijo, frango, pizza, etc.",
+        "image": "https://www.sabornamesa.com.br/media/k2/items/cache/9b8bb3eb74bd3cd97bb3679c60950d61_XL.jpg",
+        "weight": 0.2,
+        "type": "SNACK"
+    },
+    "25": {
+        "id": 25,
+        "name": "Quibe",
+        "price": 2.9,
+        "description": "Quibe é um salgado feito com massa de farinha de trigo e recheio de carne.",
+        "image": "https://i0.wp.com/anamariabraga.globo.com/wp-content/uploads/2018/11/quibe-frito-tradicional.jpg?fit=1200%2C675&ssl=1",
+        "weight": 0.2,
+        "type": "SNACK"
+    }
+}
